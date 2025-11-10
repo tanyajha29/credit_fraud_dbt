@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/ac9bb4c11c9a42439cf5656c940b850d/artifacts
+end_time: 1761158843686
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ac9bb4c11c9a42439cf5656c940b850d
+run_name: bright-bat-200
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761158552714
+status: 3
+tags: []
+user_id: jhata

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/7576ee8e910843d59d1c65893f734df6/artifacts
+end_time: 1761232097673
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7576ee8e910843d59d1c65893f734df6
+run_name: gifted-ant-880
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761231823164
+status: 3
+tags: []
+user_id: jhata

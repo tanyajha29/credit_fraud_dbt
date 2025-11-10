@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: credit_fraud_dw # Ensure this matches your DB name
+    schema: raw_data
+    tables:
+      - name: raw_simulated_transactions # Matches RAW_TABLE_NAME in load_raw_data.py

@@ -1,0 +1,59 @@
+[0m23:02:37.178206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAB58E30E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAB6650A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAB3804A50>]}
+
+
+============================== 23:02:37.192474 | 9be1e370-59fd-4d13-a79a-8347b1472a7b ==============================
+[0m23:02:37.192474 [info ] [MainThread]: Running with dbt=1.10.13
+[0m23:02:37.193861 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'use_colors': 'True', 'no_print': 'None', 'target_path': 'None', 'printer_width': '80', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\jhata\\.dbt', 'invocation_command': 'dbt init fraud_dbt_project', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m23:02:37.242190 [debug] [MainThread]: Starter project path: C:\Users\jhata\WEB-Projects\credit_fraud_dbt\venv\Lib\site-packages\dbt\include\starter_project
+[0m23:02:37.274710 [info ] [MainThread]: 
+Your new dbt project "fraud_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:02:37.276165 [info ] [MainThread]: Setting up your profile.
+[0m23:05:29.412618 [info ] [MainThread]: Profile fraud_dbt_project written to C:\Users\jhata\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:05:29.414389 [debug] [MainThread]: Command `dbt init` succeeded at 23:05:29.414123 after 172.47 seconds
+[0m23:05:29.414958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAB8204FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAB7D99C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BAB433E580>]}
+[0m23:05:29.415423 [debug] [MainThread]: Flushing usage events
+[0m23:05:31.479231 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:27:33.389721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A221730E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A22EF0A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A20094A50>]}
+
+
+============================== 23:27:33.400843 | 0bed242b-1d1c-416f-8cb5-66478df633ad ==============================
+[0m23:27:33.400843 [info ] [MainThread]: Running with dbt=1.10.13
+[0m23:27:33.401871 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt run', 'printer_width': '80', 'log_format': 'default', 'write_json': 'True', 'profiles_dir': 'C:\\Users\\jhata\\.dbt', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'False', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m23:27:33.402730 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\jhata\WEB-Projects\credit_fraud_dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:27:33.403998 [debug] [MainThread]: Command `dbt run` failed at 23:27:33.403809 after 0.20 seconds
+[0m23:27:33.404465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A245D5480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A23431910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A245E1590>]}
+[0m23:27:33.404861 [debug] [MainThread]: Flushing usage events
+[0m23:27:35.011475 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:29:24.088339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7275530E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7282D0A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7254E4A50>]}
+
+
+============================== 23:29:24.106709 | 9395566d-1e6d-4498-b982-010f00f3dacd ==============================
+[0m23:29:24.106709 [info ] [MainThread]: Running with dbt=1.10.13
+[0m23:29:24.107967 [debug] [MainThread]: running dbt with arguments {'profiles_dir': 'C:\\Users\\jhata\\.dbt', 'log_format': 'default', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'warn_error': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'False', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'invocation_command': 'dbt run', 'printer_width': '80', 'write_json': 'True'}
+[0m23:29:24.108921 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\jhata\WEB-Projects\credit_fraud_dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:29:24.111349 [debug] [MainThread]: Command `dbt run` failed at 23:29:24.111062 after 0.31 seconds
+[0m23:29:24.112028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7299B9480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C728811910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7299C5590>]}
+[0m23:29:24.112632 [debug] [MainThread]: Flushing usage events
+[0m23:29:26.605105 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/0/models/m-4f9cfd52a7bf4676ac7a5007aed26817/artifacts
+creation_timestamp: 1761156215804
+experiment_id: '0'
+last_updated_timestamp: 1761156232449
+model_id: m-4f9cfd52a7bf4676ac7a5007aed26817
+model_type: ''
+name: fraud_detector_pipeline
+source_run_id: 918984df690c42e2bddd1bf02dd6da0d
+status: 2
+status_message: null
